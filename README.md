@@ -1,4 +1,6 @@
-## Problem Definition
+## Big word search
+
+### Problem Definition
 Create a django project analyse whether a particular wikipedia page includes alot of big words.
 
 1. create new branch off of main
@@ -18,9 +20,7 @@ Create a django project analyse whether a particular wikipedia page includes alo
     - add README for how to run your project
 13. create pull request of your branch pointing to branch:main with screenshot in PR description
 
-### Big word search
-
-## Enable Email Service
+### Enable Email Service
 
 Email service needs to be configured for sending email once the summary contains the more than 20 percentage of words
 with length greater than 5. I have used gmail as email sender. To configured it, need to set the environment variable in
@@ -36,7 +36,7 @@ RECEIVER_EMAIL=RECEIVER_GMAIL_ADDRESS
 SMTP=smtp.gmail.com
 ```
 
-## Run Application
+### Run Application
 
 Change to the root directory of the project as
 
@@ -52,7 +52,7 @@ cd wordsearch
  python manage.py runserver
 ```
 
-## Run Test
+### Run Test
 
 1. Change directory to wiki_stats app as:
 
@@ -66,6 +66,6 @@ cd wordsearch
 pytest
 ```
 
-## Screenshot of application
+### Screenshot of application
 
 ![](wordsearch/media/screenshot.png)
