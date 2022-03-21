@@ -1,0 +1,5 @@
+django
+djangorestframework
+requests
+django-environ
+requests-mock
